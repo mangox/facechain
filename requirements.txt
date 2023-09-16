@@ -20,3 +20,4 @@ python-slugify
 #tensorflow-cpu  # slower but no cuda conflicts
 
 # mmcv-full (need mim install)
+webargs==8.3.0

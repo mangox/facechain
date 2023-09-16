@@ -23,6 +23,7 @@ from facechain.constants import neg_prompt as neg, pos_prompt_with_cloth, pos_pr
 
 training_done_count = 0
 inference_done_count = 0
+style_list = []
 
 class UploadTarget(enum.Enum):
     PERSONAL_PROFILE = 'Personal Profile'
